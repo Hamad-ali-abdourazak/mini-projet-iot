@@ -1,24 +1,24 @@
-#  Mini Dashboard IoT Météo
+# 🌍 Mini Dashboard IoT Météo
 
 Un tableau de bord IoT moderne et futuriste affichant des données météo en temps réel de n'importe quelle ville du monde.
 
 ![Dashboard IoT](https://img.shields.io/badge/Status-Fonctionnel-brightgreen) ![Node.js](https://img.shields.io/badge/Node.js-18+-green) ![License](https://img.shields.io/badge/License-MIT-blue)
 
-##  Fonctionnalités
+## ✨ Fonctionnalités
 
--  **Température en temps réel** - Données météo réelles via Open-Meteo API
--  **Humidité actuelle** - Mesures précises pour chaque ville
--  **Support mondial** - Plus de 200 000 villes disponibles
--  **Interface futuriste** - Design glassmorphism avec effets néon
--  **Mise à jour automatique** - Rafraîchissement toutes les 1,5 secondes
--  **Recherche intelligente** - Géocodage automatique des noms de villes
+- 🌡️ **Température en temps réel** - Données météo réelles via Open-Meteo API
+- 💧 **Humidité actuelle** - Mesures précises pour chaque ville
+- 🌍 **Support mondial** - Plus de 200 000 villes disponibles
+- 🎨 **Interface futuriste** - Design glassmorphism avec effets néon
+- 🔄 **Mise à jour automatique** - Rafraîchissement toutes les 1,5 secondes
+- 🔍 **Recherche intelligente** - Géocodage automatique des noms de villes
 
-##  Installation
+## 🚀 Installation
 
 1. **Cloner le projet**
 ```bash
-git clone https://github.com/[TON-USERNAME]/mini-iot-js.git
-cd mini-iot-js
+git clone https://github.com/Hamad-ali-abdourazak/mini-projet-iot.git
+cd mini-projet-iot
 ```
 
 2. **Installer les dépendances**
@@ -36,7 +36,7 @@ npm start
 http://localhost:3000
 ```
 
-##  Utilisation
+## 📱 Utilisation
 
 1. **Voir Paris par défaut** - Le dashboard s'ouvre avec la météo de Paris
 2. **Changer de ville** - Tapez le nom d'une ville dans le champ de recherche
@@ -48,14 +48,14 @@ http://localhost:3000
 - **Europe** : Londres, Berlin, Rome, Madrid
 - **Monde** : Tokyo, New York, Sydney, Rio de Janeiro
 
-##  Technologies utilisées
+## 🛠️ Technologies utilisées
 
 - **Backend** : Node.js + Express.js
 - **Frontend** : HTML5, CSS3 (Glassmorphism), JavaScript ES6+
 - **API** : Open-Meteo (météo gratuite et sans clé)
 - **Géocodage** : Open-Meteo Geocoding API
 
-##  Structure du projet
+## 📋 Structure du projet
 
 ```
 mini-iot-js/
@@ -69,26 +69,26 @@ mini-iot-js/
 └── README.md         # Documentation
 ```
 
-##  API Endpoints
+## 🌐 API Endpoints
 
 - `GET /api/capteurs?lat=X&lon=Y&ville=Z` - Récupère les données météo
 - `GET /api/recherche-ville/:nom` - Géocode un nom de ville
 
-##  Captures d'écran
+## 🎨 Captures d'écran
 
 *Interface futuriste avec glassmorphism et effets néon*
 
-##  Licence
+## 📄 Licence
 
 MIT License - Libre d'utilisation
 
-##  Contribution
+## 🤝 Contribution
 
 Les contributions sont les bienvenues ! N'hésitez pas à :
 - Ouvrir des issues
 - Proposer des améliorations
 - Soumettre des pull requests
 
-##  Contact
+## 📞 Contact
 
-Créé avec  pour l'apprentissage de l'IoT et des APIs météo.
+Créé avec ❤️ pour l'apprentissage de l'IoT et des APIs météo.
