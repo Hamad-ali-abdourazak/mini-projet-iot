@@ -76,7 +76,7 @@ mini-iot-js/
 
 ## Captures d'écran
 
-*Interface futuriste avec glassmorphism et effets néon*
+Interface utilisateur moderne avec design glassmorphism et animations fluides.
 
 ## Licence
 
