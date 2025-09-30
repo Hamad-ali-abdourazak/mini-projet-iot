@@ -89,6 +89,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 - Proposer des améliorations
 - Soumettre des pull requests
 
-## 📞 Contact
+## 📞 Contact      
 
 Créé avec ❤️ pour l'apprentissage de l'IoT et des APIs météo.
