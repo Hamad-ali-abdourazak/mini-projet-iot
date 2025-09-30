@@ -1,0 +1,65 @@
+    <div class="ventilo-container">
+      <button id="ventilo-btn" class="ventilo-btn off">Ventilo-convecteur : OFF</button>
+      <span id="ventilo-state" class="ventilo-state off">⏹️ Arrêté</span>
+    </div>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Tableau de bord IoT</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Mini Tableau de bord IoT</h1>
+    <div class="ville-heure">
+      <span id="ville">Paris</span> — <span id="heure">--:--:--</span>
+    </div>
+    <form id="ville-form" class="ville-form">
+      <input type="text" id="ville-input" placeholder="Ville ou coordonnées (ex: Paris ou 48.85,2.35)" />
+      <button type="submit">Changer</button>
+    </form>
+    <div class="dashboard">
+      <div class="card" id="temp-card">
+        <span class="icon">🌡️</span>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Tableau de bord IoT</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Mini Tableau de bord IoT</h1>
+    <div class="info-bar">
+      <span id="ville">--</span> • <span id="heure">--:--:--</span> • <span class="status">🟢 Données réelles</span>
+    </div>
+    <div class="ville-form">
+      <input type="text" id="ville-input" placeholder="Entrez le nom d'une ville (ex: Lyon, Tokyo, New York...)" />
+      <button type="button" id="ville-btn">🌍 Changer de ville</button>
+    </div>
+    <div class="dashboard">
+      <div class="card" id="temp-card">
+        <span class="icon">🌡️</span>
+        <h2>Température</h2>
+        <div class="value" id="temperature">-- °C</div>
+        <div class="source">Météo réelle</div>
+      </div>
+      <div class="card" id="hum-card">
+        <span class="icon">💧</span>
+        <h2>Humidité</h2>
+        <div class="value" id="humidite">-- %</div>
+        <div class="source">Météo réelle</div>
+      </div>
+
+    </div>
+    <button id="refresh-btn">🔄 Rafraîchir</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
